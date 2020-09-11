@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final HttpLink httpLink = HttpLink(
-      uri: 'https://parseapi.back4app.com/graphql',
+      uri: kUrl,
       headers: {
         'X-Parse-Application-Id': kParseApplicationId,
         'X-Parse-Client-Key': kParseClientKey,
